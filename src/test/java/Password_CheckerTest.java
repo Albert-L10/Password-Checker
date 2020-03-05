@@ -7,8 +7,8 @@ public class Password_CheckerTest {
 
     @Test
     public void Password() {
-        String password="Albert~122";
+        String password="Allie1000";
 
-        Assert.assertEquals("Albert~122",password);
+        Assert.assertEquals("your password is valid","Allie1000",password);
     }
 }

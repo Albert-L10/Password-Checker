@@ -26,13 +26,13 @@ public class Password_Checker {
 
             try
             {
-                for(String exist:log) {
-                    if (password.matches(exist)) {
+
+
 
                         validatePassword(password);
-                    }
 
-                }
+
+
 
             }
             catch (PasswordException e)
