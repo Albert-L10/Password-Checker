@@ -7,9 +7,7 @@ public class Password_CheckerTest {
 
     @Test
     public void Password() {
-        String password;
-        Scanner key=new Scanner(System.in);
-        password=key.next();
+        String password="Albert~122";
 
         Assert.assertEquals("Albert~122",password);
     }
